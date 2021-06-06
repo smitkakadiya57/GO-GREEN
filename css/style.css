@@ -1,0 +1,170 @@
+
+/* css for all elements  */
+body{
+    font-family: 'Harmattan', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+.d-flex {
+    flex-wrap: wrap;
+}
+
+/* css for Header component */
+.header{
+    background-color: rgb(245, 243, 243);
+}
+.header .container .row {
+    display: flex;
+    flex-direction: row;
+}
+.logo-img {
+    margin: 0;
+    padding: 0;
+}
+.logo-img img {
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+.text-logo{
+    margin: auto 10px;
+}
+.text-logo h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+    color: rgb(50, 158, 50);
+    text-shadow: 0px 3px 2px grey;
+    margin: 0;
+    
+}
+.title-logo{
+    margin: auto 10px;
+    margin-bottom: 5px;
+}
+.title-logo h3 {
+    font-family: 'Merienda', cursive;
+    font-size: 1em;
+    color: green;
+    
+}
+
+nav {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+}
+nav .nav-link {
+    padding: 0;
+}
+          
+                /* css for introduction section  */
+
+h5{
+    font-family: 'Courgette', cursive;
+    font-size: 4rem;
+    text-shadow: 0px 0px 10px black;
+}
+
+.card {
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 20px;
+     font-family: 'Delius', cursive;
+    
+}
+.card-img-top {
+    width: 100px;
+    height: 100px;
+}
+
+.container .card {
+    margin: 0 auto;
+}
+.app {
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+   
+}
+.app-title {
+    text-align: center;
+    font-size: 5em;
+}
+/* css for Footer  component */
+.footer{
+    
+    font-size: 1.3em;
+    background: black;
+    color: white;
+}
+
+
+/* application  form css */
+
+form {
+    max-width: 820px;
+    margin: 5% auto;
+    font-size: 1.4em;
+    font-family: 'Baloo Tammudu 2', cursive;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px grey;
+    padding: 5%;
+}
+
+
+
+/* this is for services page  */
+
+
+.service{
+    
+    margin: 1.5%;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px grey;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.service .row .col .card img {
+    width: 200px;
+    height: 200px;
+}
+.service .row .col .card .card-body h4 {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(238, 18, 29);
+}
+.service .row .col .card{
+    box-shadow: 0px 0px 2px grey;
+}
+.title p{
+    
+    font-size: 3em;
+    color: rgb(236, 27, 27);   
+}
+
+/* css for about us page english  */
+
+.aboutus {
+     box-shadow: 0px 0px 5px grey;
+     border-radius: 5px;
+}
+.aboutus p {
+    font-size: 1.4em;
+}
+.lan {
+    text-align:right;   
+}
+.lan a {
+    font-size:1.2em;
+
+}
+.aboutus h1 {
+    font-family: 'Rasa', serif;
+}
+.lang p {
+    font-size: 1.4em;
+    font-family: 'Rasa', serif;
+}
